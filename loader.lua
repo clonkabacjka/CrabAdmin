@@ -21,7 +21,7 @@ end
 local success = loadFromLocal()
 if not success then
     print("Local file not found, loading Crab Admin from web...")
-    local response = game:HttpGet("https://raw.githubusercontent.com/YourUsername/CrabAdmin/main/crabadmin.lua")
+    local response = game:HttpGet("https://raw.githubusercontent.com/clonkabacjka/CrabAdmin/main/crabadmin.lua")
     if writefile then
         writefile("crabadmin.lua", response)
         print("Saved Crab Admin to local storage for faster loading next time!")
